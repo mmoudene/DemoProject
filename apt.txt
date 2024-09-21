@@ -104,7 +104,6 @@ meson
 glslang-tools
 git-lfs
 libncurses5
-libncurses5:i386
 libelf-dev
 aapt
 zstd

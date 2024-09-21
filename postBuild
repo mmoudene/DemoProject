@@ -1,0 +1,10 @@
+cd ~
+curl https://storage.googleapis.com/git-repo-downloads/repo > ./repo
+chmod a+rwx repo
+mkdir android
+cd android
+git config --global user.name "haafzia"
+git config --global user.email "haafzia922@outlook.com"
+git config --global color.ui false
+../repo init -u https://github.com/BlissRoms-x86/manifest.git -b arcadia-x86 --git-lfs
+../repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune

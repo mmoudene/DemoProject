@@ -2,6 +2,7 @@ nano
 htop
 git-core
 gnupg
+apt-utils
 flex
 bison
 gperf

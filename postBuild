@@ -1,3 +1,4 @@
-
-cd ~
-wget "https://88-99-60-95.top/Oceanofgames.com/Grand_Theft_Auto_V_GTA_5_RELOADED.zip?md5=UVsc6S5Irf5RUNh732KovQ&expires=1729485783"
+mkdir -p ~/.bin
+PATH="${HOME}/.bin:${PATH}"
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+chmod a+rx ~/.bin/repo
